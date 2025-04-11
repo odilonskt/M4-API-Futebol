@@ -7,12 +7,15 @@ const app = express()
 const PORT = 3000
 
 app.use(express.json());
+
 //rota pricipal
 app.use("/jogadores",jogadorRouter)
 
 
+
 //rota principal
-app.use("/time", timeRouter);
+app.use("/times", timeRouter);
+
 app.listen(PORT, ()=>{
  console.log(`rodando nessa porta ${PORT}`)
 })
