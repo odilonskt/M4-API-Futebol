@@ -18,7 +18,8 @@ Esta API permite requisitar informações sobre **jogadores** e **times de futeb
 npm i express nodemon
 ```
 2. Comando para inicializar:
-   rodando com nodemon:
+
+    rodando com nodemon:
   ```bash
 npm run dev 
 ```
