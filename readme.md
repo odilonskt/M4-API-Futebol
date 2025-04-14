@@ -27,6 +27,7 @@ rodando com node:
 npm start
 ```
  Endpoints da API
+ 
  🔹 GET:
 ```bash
 /jogadores
