@@ -16,7 +16,7 @@ Esta API permite requisitar informações sobre **jogadores** e **times de futeb
 1. Instale as dependências:
 ```bash
 npm i express nodemon
-
+```
 
  Endpoints da API
 🔹 GET /jogadores
