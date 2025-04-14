@@ -17,33 +17,41 @@ Esta API permite requisitar informações sobre **jogadores** e **times de futeb
 ```bash
 npm i express nodemon
 ```
-
+2. Comando para inicializar:
+   rodando com nodemon:
+  ```bash
+npm run dev 
+```
+rodando com node:
+```bash
+npm start
+```
  Endpoints da API
-## 🔹 GET:
+ 🔹 GET:
 ```bash
 /jogadores
 ```
 Retorna todos os jogadores cadastrados.
 
-## 🔹 GET:
+ 🔹 GET:
 ```bash
 /times
 ```
 Retorna todos os times cadastrados.
 
-## 🔹 GET:
+ 🔹 GET:
 ```bash
 /jogadores/:id
 ```
 Retorna os dados de um jogador específico pelo ID.
 
-## 🔹 GET:
+ 🔹 GET:
 ```bash
 /times/:id
 ```
 Retorna os dados de um time específico pelo ID.
 
-## 🔹 GET:
+🔹 GET:
 ```bash
 /times/pais/:pais
 ```
@@ -53,13 +61,13 @@ Exemplo:
 ```bash
 /times/pais/Brasil
 ```
-## 🔹 GET:
+ 🔹 GET:
 ```bash
 /times/:id/jogadores
 ```
 Retorna todos os jogadores que pertencem ao time com o ID informado.
 
-## 🔹 GET:
+ 🔹 GET:
 ```bash
 /jogadores/nacionalidade/:nacionalidade
 ```
