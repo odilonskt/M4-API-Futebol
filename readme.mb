@@ -10,7 +10,7 @@ essa API  esta  requisita  jogadores e times de futebol
 
 ## 🧑‍💻 Como rodar o projeto
 
-` npm i express nodemon  `
+ npm i express nodemon  
 
 npm run dev
 
