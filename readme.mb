@@ -1,0 +1,38 @@
+# API-Futebol 
+
+essa API  esta  requisita  jogadores e times de futebol 
+
+
+## 🚀 Tecnologias usadas
+- Node.js
+- Express
+- nodemon 
+
+## 🧑‍💻 Como rodar o projeto
+
+` npm i express nodemon  `
+
+npm run dev
+
+requisição GET: 
+
+mostra todos os jogadores e time
+
+http://localhost:3000/jogadores
+http://localhost:3000/times
+
+mostra os time/jogadores por id:
+
+http://localhost:3000/times/:id
+http://localhost:3000/jogadores/:id
+
+
+mostra todos os time de certo pais:
+http://localhost:3000/times/pais/:pais
+
+
+pegar o id do time e mostra os jogadores que fazem parte desse time:
+http://localhost:3000/times/:id/jogadores
+
+mostra todos os jogadores de certa nacionalidade:
+http://localhost:3000/jogadores/nacionalidade/:nacionalidade 
