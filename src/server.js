@@ -17,5 +17,8 @@ app.use("/jogadores",jogadorRouter)
 app.use("/times", timeRouter);
 
 app.listen(PORT, ()=>{
- console.log(`rodando nessa porta ${PORT}`)
+    console.log('\n==============================');
+    console.log('\x1b[32m%s\x1b[0m', `✅ Servidor rodando em: http://localhost:${PORT}`);
+    console.log('==============================\n');
+    
 })
