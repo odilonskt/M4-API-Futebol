@@ -20,7 +20,7 @@ class TimeController{
      getJogadoresDoTime(req, res){
          const { id } = req.params
          const time = times.find(t => t.id == id);
-        console.log(time)
+     
          if(!time){
             return res.status(404).json({ mensagem: "Time não encontrado." });
          }
