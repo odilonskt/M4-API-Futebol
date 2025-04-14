@@ -19,25 +19,53 @@ npm i express nodemon
 ```
 
  Endpoints da API
-🔹 GET /jogadores
+## 🔹 GET:
+```bash
+/jogadores
+```
 Retorna todos os jogadores cadastrados.
 
-🔹 GET /times
+## 🔹 GET:
+```bash
+/times
+```
 Retorna todos os times cadastrados.
 
-🔹 GET /jogadores/:id
+## 🔹 GET:
+```bash
+/jogadores/:id
+```
 Retorna os dados de um jogador específico pelo ID.
 
-🔹 GET /times/:id
+## 🔹 GET:
+```bash
+/times/:id
+```
 Retorna os dados de um time específico pelo ID.
 
-🔹 GET /times/pais/:pais
+## 🔹 GET:
+```bash
+/times/pais/:pais
+```
 Retorna todos os times de um determinado país.
-Exemplo: /times/pais/Brasil
 
-🔹 GET /times/:id/jogadores
+Exemplo: 
+```bash
+/times/pais/Brasil
+```
+## 🔹 GET:
+```bash
+/times/:id/jogadores
+```
 Retorna todos os jogadores que pertencem ao time com o ID informado.
 
-🔹 GET /jogadores/nacionalidade/:nacionalidade
+## 🔹 GET:
+```bash
+/jogadores/nacionalidade/:nacionalidade
+```
 Retorna todos os jogadores de uma determinada nacionalidade.
-Exemplo: /jogadores/nacionalidade/Brasileira
+
+Exemplo:
+```bash
+/jogadores/nacionalidade/Brasileira
+```
