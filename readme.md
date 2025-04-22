@@ -79,3 +79,19 @@ Exemplo:
 ```bash
 /jogadores/nacionalidade/Brasileira
 ```
+🔹 GET:
+```bash
+/times/cal/maximo
+```
+Retorna os times que tem o maximo de gol possivel.
+🔹 GET:
+```bash
+/times/cal/minimo
+```
+Retorna todos os time que tem o minimo de gol possivel.
+
+🔹 GET:
+```bash
+/times/cal/media
+```
+Retorna todos os times que estão na media de gol no bando de dados mocado  
