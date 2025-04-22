@@ -63,6 +63,7 @@ Exemplo:
 ```bash
 /times/pais/Brasil
 ```
+
 🔹 GET:
 ```bash
 /times/:id/jogadores
@@ -79,11 +80,13 @@ Exemplo:
 ```bash
 /jogadores/nacionalidade/Brasileira
 ```
+
 🔹 GET:
 ```bash
 /times/cal/maximo
 ```
 Retorna os times que tem o maximo de gol possivel.
+
 🔹 GET:
 ```bash
 /times/cal/minimo
