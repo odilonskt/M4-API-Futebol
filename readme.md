@@ -85,16 +85,16 @@ Exemplo:
 ```bash
 /times/cal/maximo
 ```
-Retorna os times que tem o maximo de gol possivel.
+Retorna todos os times que possuem o maior número de gols registrados no banco de dados mockado.
 
 🔹 GET:
 ```bash
 /times/cal/minimo
 ```
-Retorna todos os time que tem o minimo de gol possivel.
+Retorna todos os times que possuem o menor número de gols registrados no banco de dados mockado.
 
 🔹 GET:
 ```bash
 /times/cal/media
 ```
-Retorna todos os times que estão na media de gol no bando de dados mocado  
+Retorna todos os times que possuem um número de gols igual à média geral registrada no banco de dados mockado.
