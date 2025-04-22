@@ -1,6 +1,6 @@
 # ⚽ API-Futebol
 
-Esta API permite requisitar informações sobre **jogadores** e **times de futebol**, com filtros por ID, nacionalidade e país.
+Esta API permite requisitar informações sobre **jogadores** e **times de futebol**, com filtros por ID, nacionalidade, país, maximo, minimo e a media.
 
 ---
 
