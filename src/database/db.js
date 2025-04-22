@@ -2,22 +2,22 @@
   
   // Times
   export const times = [
-    { id: 1, nome: 'Flamengo', pais: 'Brasil' },
-    { id: 2, nome: 'Palmeiras', pais: 'Brasil' },
-    { id: 3, nome: 'Corinthians', pais: 'Brasil' },
-    { id: 4, nome: 'Grêmio', pais: 'Brasil' },
-    { id: 5, nome: 'Kashima Antlers', pais: 'Japão' },
-    { id: 6, nome: 'Real Madrid', pais: 'Espanha' },
-    { id: 7, nome: 'Chelsea', pais: 'Inglaterra' },
-    { id: 8, nome: 'Bayern de Munique', pais: 'Alemanha' },
-    { id: 9, nome: 'PSG', pais: 'França' },
-    { id: 10, nome: 'Al-Nassr', pais: 'Arábia Saudita' },
-    { id: 11, nome: 'Ajax', pais: 'Holanda' },
-    { id: 12, nome: 'Benfica', pais: 'Portugal' },
-    { id: 13, nome: 'Borussia Dortmund', pais: 'Alemanha' },
-    { id: 14, nome: 'Club Brugge', pais: 'Bélgica' },
-    { id: 15, nome: 'Fenerbahçe', pais: 'Turquia' },
-    { id: 16, nome: 'Wydad Casablanca', pais: 'Marrocos' }
+    { id: 1, nome: 'Flamengo', pais: 'Brasil', gols: 17 },
+    { id: 2, nome: 'Palmeiras', pais: 'Brasil', gols: 14 },
+    { id: 3, nome: 'Corinthians', pais: 'Brasil', gols: 10 },
+    { id: 4, nome: 'Grêmio', pais: 'Brasil', gols: 5 },
+    { id: 5, nome: 'Kashima Antlers', pais: 'Japão', gols: 4 },
+    { id: 6, nome: 'Real Madrid', pais: 'Espanha', gols: 5 },
+    { id: 7, nome: 'Chelsea', pais: 'Inglaterra', gols: 7 },
+    { id: 8, nome: 'Bayern de Munique', pais: 'Alemanha', gols: 7 },
+    { id: 9, nome: 'PSG', pais: 'França', gols: 7 },
+    { id: 10, nome: 'Al-Nassr', pais: 'Arábia Saudita', gols: 7 },
+    { id: 11, nome: 'Ajax', pais: 'Holanda', gols: 7 },
+    { id: 12, nome: 'Benfica', pais: 'Portugal', gols: 6 },
+    { id: 13, nome: 'Borussia Dortmund', pais: 'Alemanha', gols: 5 },
+    { id: 14, nome: 'Club Brugge', pais: 'Bélgica', gols: 5 },
+    { id: 15, nome: 'Fenerbahçe', pais: 'Turquia', gols: 3 },
+    { id: 16, nome: 'Wydad Casablanca', pais: 'Marrocos', gols: 1 }
   ];
   
   // Jogadores
