@@ -10,7 +10,7 @@ class JogadorController {
         const {id} = req.params;
         const jogador = jogadores.find(jogador => jogador.id == id)
         if(!jogador){
-            return res.status(404).json({message:"jogador não encontrador"})
+            return res.status(400).json({message:"jogador não encontrador"})
 
         }
         return res.json(jogador)
