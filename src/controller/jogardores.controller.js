@@ -19,7 +19,10 @@ class JogadorController {
      getNacionalidade(req,res){
         const {nacionalidade} =req.params
         const jogadoresPorNacionalidade = jogadores.filter(jogador => jogador.nacionalidade.toLowerCase() === nacionalidade.toLowerCase());
-
+         
+    if (jogadoresPorNacionalidade.length === 0) {
+             return res.status(400).json({ message: "Nenhum jogador encontrado com essa nacionalidade." });
+         }
     
 
         return res.json(jogadoresPorNacionalidade)
