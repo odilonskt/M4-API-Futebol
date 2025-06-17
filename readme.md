@@ -16,6 +16,7 @@ Esta API permite requisitar informações sobre **jogadores** e **times de futeb
 
 
  Endpoints da API
+ 
  🔹 rota principal:
  ```bash
 https://m4-api-futebol.onrender.com
