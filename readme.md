@@ -8,27 +8,23 @@ Esta API permite requisitar informações sobre **jogadores** e **times de futeb
 - Node.js
 - Express
 - Nodemon
-
+-  Primsa
+ - Neon Postgres
 ---
 
 ## 🧑‍💻 Como rodar o projeto
 
-1. Instale as dependências:
-```bash
-npm i express nodemon
-```
-2. Comando para inicializar:
 
-rodando com nodemon:
-  ```bash
-npm run dev 
-```
-rodando com node:
-```bash
-npm start
-```
  Endpoints da API
- 
+ 🔹 rota principal:
+ ```bash
+https://m4-api-futebol.onrender.com
+```
+
+ 🔹 rota da documentação do swagger:
+ ```bash
+https://m4-api-futebol.onrender.com/api-docs
+```
  🔹 GET:
 ```bash
 /jogadores
