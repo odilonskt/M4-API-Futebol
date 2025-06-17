@@ -10,7 +10,7 @@ const swaggerOptions = {
         },
         servers: [
             {
-                url: "https://m4-projeto-final-qvw6.onrender.com", // Altere se necessário
+                url: "https://m4-api-futebol.onrender.com", // Altere se necessário
             },
         ],
     },
