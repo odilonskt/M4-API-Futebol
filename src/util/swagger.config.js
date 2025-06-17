@@ -10,7 +10,7 @@ const swaggerOptions = {
         },
         servers: [
             {
-                url: "http://localhost:3000", // Altere se necessário
+                url: "https://m4-projeto-final-qvw6.onrender.com", // Altere se necessário
             },
         ],
     },
