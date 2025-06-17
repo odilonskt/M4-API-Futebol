@@ -1,24 +1,26 @@
-import express from 'express'
-import jogadorRouter from './routes/jogadores.routes.js'
-import timeRouter from './routes/time.routes.js'
- 
-const app = express()
+import express from "express";
+import bodyParser from "body-parser";
+import jogadorRouter from "./routes/jogadores.routes.js";
+import timeRouter from "./routes/time.routes.js";
+import swaggerUi from "swagger-ui-express";
+import swaggerSpecs from "./util/swagger.config.js";
 
-const PORT = 3000
+const app = express();
+const PORT = process.env.PORT || 3000;
 
-app.use(express.json());
+// Middleware para processar JSON
+app.use(bodyParser.json());
 
-//rota pricipal
-app.use("/jogadores",jogadorRouter)
+// Documentação Swagger
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpecs));
 
-
-
-//rota principal
+// Rotas principais
+app.use("/jogadores", jogadorRouter);
 app.use("/times", timeRouter);
 
-app.listen(PORT, ()=>{
-    console.log('\n==============================');
-    console.log('\x1b[32m%s\x1b[0m', `✅ Servidor rodando em: http://localhost:${PORT}`);
-    console.log('==============================\n');
-    
-})
+app.listen(PORT, () => {
+    console.log("\n==============================");
+    console.log("\x1b[32m%s\x1b[0m", `✅ Servidor rodando em: http://localhost:${PORT}`);
+    console.log("\x1b[32m%s\x1b[0m", `📄 Documentação disponível em: http://localhost:${PORT}/api-docs`);
+    console.log("==============================\n");
+});
